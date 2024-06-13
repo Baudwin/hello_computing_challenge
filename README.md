@@ -1,5 +1,5 @@
 ## Description
-This is a dockerized angulaer application served via a node server.
+This is a dockerized angular application served via a node server.
 
 ## Prerequisites
 Docker
