@@ -1,0 +1,15 @@
+/* main{
+    padding: 0px 15rem 0px 15rem;
+}
+.hero{
+    padding: 0px 10px 0px 10px;
+    text-align: center; 
+    margin: 2rem 0rem;
+}
+.hero h2{
+    margin: 1.5rem 0px;
+} */
+
+main{
+    @apply container sm:px-5 md:px-10
+}

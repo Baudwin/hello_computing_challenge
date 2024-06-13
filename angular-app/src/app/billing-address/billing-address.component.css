@@ -1,0 +1,72 @@
+/* .content{
+    border-bottom: 3px solid;
+    padding-bottom: 30px;
+    border-color: rgb(127, 125, 125);
+}
+.address1-div{
+    background-color: rgb(138, 180, 74);
+    color: white;
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgb(0, 0, 0 / 0.05);
+    height: 5em;
+    padding: 5px 5px;
+    margin: 15px 0px;
+}
+
+.address2-div{
+    color: rgb(138, 180, 74);
+   border: 2px solid;
+   border-color: rgb(138, 180, 74);
+    margin: auto;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgb(0, 0, 0 / 0.05);
+    height: 5em;
+    padding: 5px 5px;
+    margin: 15px 0px;
+}
+
+.new-address{
+    background-color: #255873;
+    color: white;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgb(0, 0, 0 / 0.05);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+.new-address p {
+    font-size: small;
+}
+.plus{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(156, 146, 146);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.back-btn{
+color: rgb(138, 180, 74);
+border: 2px solid;
+background-color: white;
+border-radius: 9999px;
+padding: 10px 30px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.submit-btn{
+color: white;
+background-color: rgb(138, 180, 74);
+border: 0;
+border-radius: 9999px;
+padding: 10px 30px;
+font-weight: bold;
+cursor: pointer;
+} */

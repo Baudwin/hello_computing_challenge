@@ -1,0 +1,33 @@
+<app-navbar [title]="pageContent?.global?.title"></app-navbar>
+
+<main class=" container">
+    <!-- Hero section  -->
+<div class="hero text-center py-4">
+    <h2 class="font-bold uppercase text-2xl">{{pageContent?.content.heading}}</h2>
+    <p class="text-sm">
+        {{pageContent?.content.description}}
+    </p>
+</div>
+ 
+<!-- billing address section -->
+<app-billing-address [addresses] = "addressData"></app-billing-address>
+
+<!-- add new address section  -->
+<app-new-address></app-new-address>
+<hr class="h-1 bg-gray-400 w-full mt-8">
+</main>
+
+<!-- CTA buttons  -->
+   <div class="buttons container sm:px-5 px-10 flex justify-between items-center my-5">
+    <button class="back-btn rounded-full uppercase border-2 border-[#8FD400] text-[#8FD400] px-7 py-2">{{pageContent?.global?.back}}</button>
+    <button class="submit-btn rounded-full text-white bg-[#8FD400] uppercase px-7 py-2">{{pageContent?.global?.submit}}</button>
+</div>
+
+<!-- conichi  -->
+<div class=" flex justify-between sm:px-5 px-4 mt-20 mb-5">
+<h1 class="text-xl text-gray-500 font-bold">conichi</h1>
+<h1 class="text-xl text-gray-400 font-semibold">SMARTHOTEL</h1>
+</div>
+
+<!-- footer  -->
+<app-footer [data]="pageContent?.global?.copyright" ></app-footer>

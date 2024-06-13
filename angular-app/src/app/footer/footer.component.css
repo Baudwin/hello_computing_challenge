@@ -1,0 +1,11 @@
+
+/* footer{
+    background-color: rgb(211, 203, 203);
+    text-align: center;
+    padding: 1.5rem 0rem;
+    position: sticky;
+    bottom: 0;
+} */
+footer{
+    @apply bg-gray-200 text-center py-6  w-full 
+}
