@@ -21,4 +21,17 @@ describe('NavbarComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  it('should have as title "Smart Check-out"', () => {
+    component.title = 'Smart Check-out';
+    fixture.detectChanges();
+    expect(component.title).toEqual('Smart Check-out');
+  });
+
+  it(`should render title`, () => {
+   component.title = 'Smart Check-out';
+  fixture.detectChanges()
+  const compiled = fixture.nativeElement;
+  expect(compiled.querySelector('p')?.textContent).toContain('Smart Check-out')
+  });
+
 });

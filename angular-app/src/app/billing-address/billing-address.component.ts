@@ -9,5 +9,4 @@ import { Component, Input } from '@angular/core';
 })
 export class BillingAddressComponent {
   @Input() addresses: any;
-  array = [1,2,3,4]
 }

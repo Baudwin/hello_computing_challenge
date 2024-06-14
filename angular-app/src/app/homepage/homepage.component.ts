@@ -25,12 +25,10 @@ pageContent:any
 ngOnInit(): void {
 this.dataService.getPageData(this.addressUrl).subscribe(data=>{
   this.addressData = data.data
-  console.log(this.addressData)
 })
 
 this.dataService.getPageData(this.contentUrl).subscribe(data=>{
   this.pageContent = data
-  console.log(this.pageContent)
 })
 
 }

@@ -20,4 +20,18 @@ describe('FooterComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have as copyright notice "© 2018 - Hotel Beacons GmbH"', () => {
+    component.data = '© 2018 - Hotel Beacons GmbH';
+    fixture.detectChanges();
+    expect(component.data).toEqual('© 2018 - Hotel Beacons GmbH');
+  });
+
+  it(`should render copyright notice`, () => {
+   component.data = '© 2018 - Hotel Beacons GmbH';
+  fixture.detectChanges()
+  const compiled = fixture.nativeElement;
+  expect(compiled.querySelector('p')?.textContent).toContain('© 2018 - Hotel Beacons GmbH')
+  });
+
 });
