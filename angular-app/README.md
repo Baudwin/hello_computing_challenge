@@ -16,11 +16,7 @@ This is a single-page Angular web application served via a Node.js server. The s
 
 - Unit tests can be run using `ng test`.
 
-- UI tests can be run using `ng e2e`.
-
 4. Build the Angular application using the command: `ng build --configuration production  --output-hashing none`.
-
-6. Install Node dependencies with the command: `npm install`.
 
 7. Start the Node server using the coomand : `npm run start`.
 
