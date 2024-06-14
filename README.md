@@ -11,3 +11,6 @@ Make sure you are in the root directory '/Hello_Computing_Challenge'
 bash : 'docker-compose up --build'
 
 2. *Open your browser and navigate to:* `http://localhost:8080/` in your browser.
+
+1. *Stop Docker container:*
+bash : 'docker-compose down'
