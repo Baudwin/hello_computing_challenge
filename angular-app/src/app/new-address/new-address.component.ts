@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-new-address',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './new-address.component.css'
 })
 export class NewAddressComponent {
-
+  @Input() addNewAddress: any;
 }

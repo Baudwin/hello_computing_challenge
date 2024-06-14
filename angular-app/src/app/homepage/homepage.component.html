@@ -15,7 +15,8 @@
 <app-billing-address [addresses] = "addressData"></app-billing-address>
 
 <!-- add new address section  -->
-<app-new-address></app-new-address>
+<app-new-address [addNewAddress] = "pageContent?.content?.components" ></app-new-address>
+
 <hr class="h-1 bg-gray-400 w-full mt-8">
 </main>
 
